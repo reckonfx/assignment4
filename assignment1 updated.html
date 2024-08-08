@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .headings{
+        background-color: violet;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 10px;
+      } 
+     
+      #courses ul li{
+       
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: larger;
+        :hover {
+            background-color: rgb(24, 83, 64);
+            color: white;
+            padding-bottom: 50px;
+        }
+      }
+      #courselogo a{
+        margin-left: 30px;
+        padding: 20px;
+        border: 10px;
+              
+      }
+
+      #form{
+        background-color: rgb(163, 226, 206);
+        border-radius: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        text-align: center;
+      }
+      button{
+        border: 30px;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: blueviolet;
+        box-shadow: 10px;
+      }
+      
+
+    </style>
+</head>
+<body >
+    
+    <div id="menu" >
+        <a href="#">Home</a>
+        <a href="#section1">Courses</a>
+        <a href="#section2">Admission</a>
+        <a href="#about us">About Us</a>
+    </div>
+
+    <img id="mainImg" src="./asset/images/preview.png" alt="main image" align = "center" width = "1200px" height = "350px">
+    
+
+    <section >
+    <h1 class="headings" > Courses</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque, velit reprehenderit illum eligendi ducimus at tempore nostrum tenetur in consequuntur totam cumque? Quidem, exercitationem quos fugit quae ab assumenda laborum voluptatibus, sequi vel dolor minima aspernatur maxime, iure ducimus dolores animi deserunt accusamus enim? Assumenda ut voluptatibus eligendi quasi!
+    </section>
+
+
+    <div id="courses">
+        <ul >
+            <li ><a href="https://javascript.com" >Java Script</a></li> 
+            <li><a href="https://typescript.com">Type Script</a></li>
+            <li><a href="https://python.org">Python</a></li>
+            <li><a href="https://iot.com">Internet of thinge(IOT)</a></li>
+        </ul>  
+    </div>  
+
+   <div id="courselogo">
+    <a href="https://javascript.com"><img src="./asset/images/javascript.jpeg" alt="javascript image"></a>  &nbsp;&nbsp;&nbsp;
+    <a href="https://typescriptlang.org"><img src="./asset/images/typescript.jpeg" alt="typescript image"></a> &nbsp;&nbsp;&nbsp;
+    <a href="https://python.org"><img src="./asset/images/python.jpeg" alt="python image"></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://ieee-iotj.org/"><img src="./asset/images/iot.jpeg" alt="IOT image"></a>&nbsp;&nbsp;&nbsp;
+   </div ><br><br>
+
+    <h1 class="headings">Admission</h1>
+
+    <p><h2>Admission for IT Courses at Our Institute :</h2><b></b><br>
+        Embrace the Future with Cutting-Edge IT Courses
+        Welcome to Our Institute, where we offer a range of IT courses designed to equip you with the skills and knowledge needed to thrive in today's rapidly evolving technological landscape. Whether you're interested in mastering TypeScript, JavaScript, Python, or exploring the world of Internet of Things (IoT), our comprehensive programs provide a solid foundation and advanced expertise.
+        
+        Why Choose Our IT Courses?
+        Expert Instructors: Learn from industry professionals with extensive experience and deep knowledge in their respective fields.
+        Hands-On Learning: Engage in practical projects and real-world scenarios to apply your skills and gain valuable experience.
+        State-of-the-Art Facilities: Access the latest technology and tools in our modern labs and learning environments.
+        Flexible Learning Options: Choose from full-time, part-time, and online courses to fit your schedule and learning preferences.
+        Career Support: Benefit from our career services, including job placement assistance, resume building, and interview preparation.
+        Available Courses
+        
+        <h2 style="color: brown; font-size: 30px;"><b>TypeScript</b></h2>
+        
+        <h3>Course Overview</h3>: Learn the essentials of TypeScript, a powerful superset of JavaScript that adds static types and advanced features for large-scale applications.
+        Course Duration: [Duration]
+        Eligibility: Basic knowledge of JavaScript is recommended.
+        Course Start Date: [Start Date]
+
+        <h2 style="color: brown; font-size: 30px;"><b>JavaScript</b></h2>
+        
+        <h3>Course Overview</h3>: Master JavaScript, the backbone of web development, and learn how to create dynamic and interactive web applications.
+        Course Duration: [Duration]
+        Eligibility: No prior programming experience required.
+        Course Start Date: [Start Date]
+        <h2 style="color: brown; font-size: 30px;"><b>Python</b></h2>
+        
+        <h3>Course Overview</h3>: Dive into Python, one of the most versatile and widely-used programming languages, ideal for web development, data analysis, machine learning, and more.
+        Course Duration: [Duration]
+        Eligibility: Suitable for beginners and experienced programmers.
+        Course Start Date: [Start Date]
+        <h2 style="color: brown; font-size: 30px;"><b>Internet of Things (IoT)</b></h2>
+        
+       <h2> Course Overview:</h2> Explore the world of IoT, learning how to connect and control devices over the internet, and develop innovative solutions for smart homes, healthcare, and industry.
+        Course Duration: [Duration]
+        Eligibility: Basic programming knowledge is recommended.
+        Course Start Date: [Start Date]
+        <h2 align = "center" style="font-size: 30px; border: 20px;">Admissions Process</h2>
+        Application: Fill out our online application form and submit the required documents, including your academic records and any relevant certifications.
+        Assessment: Depending on the course, you may need to complete a skills assessment to determine your proficiency and ensure you're placed in the right level.
+        Interview: Attend an interview with our admissions team to discuss your interests, goals, and suitability for the course.
+        Enrollment: Upon acceptance, you will receive an enrollment package with detailed information on course schedules, materials, and payment options.</p>
+        <form action="#" id="form">
+            <fieldset>
+                <legend><b>Application Form</b> </legend>
+                <label for="Student Name">Student Name</label> 
+                <input type="text"><br><br>
+                <label for="Father/Guardian Name<">Father/Guardian Name</label> 
+                <input type="text"><br><br>
+                <label for="Contact number" >Contact number</label>
+                <input type="number" required placeholder="Eg 03xx-xxxxxxx"><br><br>
+                <label for="Email Id">Email Id</label>
+                <input type="email" name="" id=""><br><br>
+                <label for="">Do you Agree to our terms and conditions?</label>
+                <select name="" id="">
+                    <option value="yes">yes</option>
+                    <option value="no">no</option>
+                </select>
+                <button> Submit</button>
+            </fieldset>
+            
+        </form>
+        <h1  id="about us" align = "center"> About Us</h1>
+    <p>
+        Welcome to our Institute, where innovation meets education. Our mission is to empower individuals with the skills and knowledge needed to excel in the rapidly evolving world of technology.
+        
+        At our nstitute, we offer a range of cutting-edge IT courses designed to equip students with practical skills and theoretical knowledge. From mastering programming languages like TypeScript, JavaScript, and Python to exploring the revolutionary field of the Internet of Things (IoT), our programs are tailored to meet the demands of the modern job market.
+        
+        <h3>Our Vision</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        
+        <head>Our Mission</head>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div align = "center">
+            <iframe src="https://www.piaic.org" frameborder="1" scrolling = "yes" width="600px" height="400px" ></iframe>
+        </div>
+</body>
+</html>
